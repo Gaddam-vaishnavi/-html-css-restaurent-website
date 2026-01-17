@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="second.css">
+    <style>
+        .menu-card{
+    display:flex;
+    gap:100px;
+    padding:40px;
+}
+body{
+    background-image: url("https://png.pngtree.com/background/20250115/original/pngtree-food-and-drinks-restaurant-menu-design-with-illustrated-vector-background-picture-image_16078143.jpg");
+    background-size: cover;
+
+}
+#break{
+    color:azure;
+}
+#non-veg{
+    color:azure;
+}
+    </style>
+</head>
+<body>
+     
+        <div class="menu-card">
+                <div class="menu">
+            <h1> TIFFINS</h1>
+           <img src="https://png.pngtree.com/thumb_back/fw800/background/20230611/pngtree-dosa-is-sitting-on-a-plate-and-sauce-image_2887017.jpg" width="50"height=30 >
+            <label><input type="radio"  id= "break" name="dosa">DOSA</input></label>-40Rs<br>
+           <img src="https://as2.ftcdn.net/v2/jpg/11/19/60/71/1000_F_1119607145_n1agx3z3PgO9NIdW0hd8RqQJ3FbjtFO0.jpg" width="50" height="30">
+            <label><input type="radio" id = "break" name="vada">vada</input></label>-30Rs<br>
+            <img src="https://img.onmanorama.com/content/dam/mm/en/food/foodie/images/2019/10/1/idli.jpg" width="50"height="30">
+            <label>><input type="radio" id ="break" name="idly">Idly</input></label>-40Rs<br>
+          <img src="https://c.ndtvimg.com/2022-08/4i2h41mo_uttapam_625x300_10_August_22.jpg?im=FeatureCrop,algorithm=dnn" width="50" heigh="30">
+           <label><input type="radio" id="break" name="uttapam">Uttampam</input></label>-30Rs<br>
+           <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/poori-puri-recipe.jpg" width="50" height="30"> 
+            <label><input type="radio" id="break" name="puri">Puri</input></label>-40Rs<br>
+        <h1>Non-Veg specials</h1>
+        <img src="https://hungryforever.net/wp-content/uploads/2017/06/south-indian-chicken-fry-recipes-scaled.jpg"width="50" height="30">
+            <label><input type="radio" id="non-veg" name="chickenfry">chickenFry</input>-150Rs</label><br>
+        <img src="https://static.vecteezy.com/system/resources/previews/040/703/949/non_2x/ai-generated-royal-feast-master-the-art-of-chicken-biryani-at-home-generative-ai-photo.jpg"width="50" height="30"> 
+            <label><input type="radio" id="non-veg" name="chickenbiryani">chickenBiryani</input></label>-210Rs<br>
+        <img src="https://hyderabadiruchulu.com/wp-content/uploads/2019/01/Mutton-Fry.jpg" width="50" height="30">
+            <label><input type="radio" id="non-veg" name="muttonfry">MuttonFry</input></label>-180Rs<br>
+            <img src="https://shop.aeroplanerice.com/wp-content/uploads/2021/10/Best-Mutton-Biryani-Recipe.jpg" width="50" height="30">
+            <label><input type="radio" id="non-veg" name="muttonbiryani">MuttonBiryani</input></label>-250Rs<br>
+            <img src="https://spicecravings.com/wp-content/uploads/2020/10/Egg-Biryani-Featured-1.jpg"width="50" height="30">
+            <label><input type="radio" id="non-veg" name="eggbiryani">EggBiryani</input> </label>-120Rs<br>
+        </div>
+        <div class="menu">
+       <h1> veg-specials</h1>
+       <img src="https://tse3.mm.bing.net/th/id/OIP.W_jE-_0a1btwW_hI9YF7iwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" width="50" height="30">
+        <label><input type="radio" class="veg" name="paneerbiryani">PaneerBiryan</input></label>-150Rs<br>
+        <img src="https://homecookingshow.in/wp-content/uploads/2025/03/veg-dum-briyani-819x1024.webp" width="50" height="30">
+        <label><input type="radio" class="veg" name="vegdumbiryani">Veg Dum Biryani</input></label>-290Rs<br>
+        <img src="https://tse1.mm.bing.net/th/id/OIP.FuF1rhrsuTQ6HdeSudN3wgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3" width="50" height="30">
+        <label><input type="radio" class="veg" name="paneerbutter">PaneerButter Masala</input></label>-170Rs<br>
+        <img src="https://th.bing.com/th/id/OIP.8Rw445Fe8dvRbifmyo6jdwHaHa?w=163&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"width="50" height="30">
+        <label><input type="radio" class="veg" name="palak paneer">Palak Paneer</input></label>-120Rs<br>
+        <img src="https://tse2.mm.bing.net/th/id/OIP.bl9ocBj4QIUCQ2nWnhMiWAHaHa?w=626&h=626&rs=1&pid=ImgDetMain&o=7&rm=3"width="50" height="30">
+        <label><input type="radio" class="veg" name="paneertikka">Paneer Tikka Masala</input>-190Rs</label>
+       <h1> cool drinks</h1>
+       <img src="https://th.bing.com/th/id/OIP.G45IXxNxZx0nwhGuN7APlAHaHa?w=159&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"width="30" height="30">
+       <label><input type="radio" class="cooldrink" name="Thumup">Thumps Up</input></label>-60Rs<br> 
+       <img src="https://th.bing.com/th/id/OIP.2d7hGsYqIGBN5BiHG91e7AHaHH?w=204&h=197&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"width="30" height="30">
+        <label><input type="radio" class="cooldrink" name="maza">Mazza</input></label>-50Rs<br>
+        <img src="https://th.bing.com/th/id/OIP.wDyY0NLHjvFXmByKT450GAHaNK?w=115&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" width="30" height="30">
+        <label><input type="radio" class="cooldrink" name="coca cola">Coca cola</input></label>-60Rs<br>
+        <img src="https://th.bing.com/th/id/OIP.rjWANw4LuCsqGb_4ATwalgHaIy?w=165&h=196&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"width="30" height="30">
+        <label><input type="radio" class="cooldrink" name="Sprite">Sprite</input></label>-50Rs<br>
+        <img src="https://tse2.mm.bing.net/th/id/OIP.kDRNQllVeRv0H20yJnH1KwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" width="30" height="30">
+        <label><input type="radio" class="cooldrink" name="pepsi">pepsi</input></label>-60Rs<br>
+        </div>
+        <div> 
+      <h1> fast food</h1>
+      <img src="https://tse4.mm.bing.net/th/id/OIP.jcMvDPzhT6Sibvd-tJeZVAHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3" width="50" height="30">
+      <label><input type="radio" name="noodles" >Noodles</label>-120Rs<br>
+      <img src="https://tse2.mm.bing.net/th/id/OIP.xx5rx2vIQe8AP46H_8L0OwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" width="50" height="30">
+      <lable> <input type="radio" name="manchuria" > Manchuria</lable>-100Rs<br>
+      <img src="https://images.slurrp.com/prod/recipe_images/better-butter/fried-maggi-noodles_WCWSYGTV9V76IEN1FULJ.webp?impolicy=slurrp-20210601&width=1200&height=675" width="50" height="30"> 
+      <lable> <input type="radio" name="fried maggi" > fried Maggi</lable>-70Rs<br>
+      <img src="https://thumbs.dreamstime.com/z/plain-maggi-noodles-instant-masala-maggi-isolated-white-background-plain-maggi-noodles-instant-masala-maggi-206531128.jpg" width="50" height="30">
+      <lable> <input type="radio" name="pLain maggi" >Plain Maggi</lable>-50Rs<br>
+      <img src="https://i.ytimg.com/vi/52MOXOxx0ik/maxresdefault.jpg" width="50" height="30">
+      <label><input type="radio" name="manchria-noodles" > Manchurian-Noodles</input></label>-130Rs<br><br>
+<a href="third1.html">
+       <button>Submit</button>
+       </a>
+       </div>
+    
+</body>
+</html>

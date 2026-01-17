@@ -1,0 +1,51 @@
+div{
+    display:flex;
+    justify-content:space-around;
+    background-color: black;
+    color:azure;
+    border-color:azure;
+    margin-right: 5px;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/photo-food-restaurant_829042-37.jpg);
+    background-size:cover;
+    color:aliceblue;
+}
+.column{
+    height:300px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 90px;
+    text-shadow: 80em;
+}
+span{
+    background-color: orange;
+    color:white;
+    text-wrap:center;
+    border-style: solid;
+}
+span:hover{
+    color:aqua;
+    background-color: blue;
+    border-style:round;
+}
+#myself:hover{
+    color:yellow;
+    background-color: orange;
+}
+i{
+    color:yellow;
+    position:relative;
+     flex-direction: row;
+     left: 150px;
+     margin-top: 15px;
+
+}
+a:hover{
+    color:black;
+    background-color: orange;
+}
+a:active{
+    background-color: blue;
+}
